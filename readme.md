@@ -8,4 +8,4 @@ Currently, I need to work on the following:
 * Maybe implement [Socket.IO](https://socket.io/)? (I'll definitely need to learn a bit more about it!)
 
 ## Access the game here!
-On [GCMunoz.com](gcmunoz.com/connect-four).
+On [gcmunoz.com/connect-four](https://gcmunoz.com/connect-four/).
