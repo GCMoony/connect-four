@@ -1,9 +1,10 @@
 const RED = "Red";
-const BLACK = "Black";
+const BLUE = "Blue";
 
 class GameBoard {
 
     board = [
+        [0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0],
@@ -16,7 +17,7 @@ class GameBoard {
 
     changePlayer() {
         if(this.currentPlayer == RED)
-            this.currentPlayer = BLACK;
+            this.currentPlayer = BLUE;
         else
             this.currentPlayer = RED;
     }
@@ -69,7 +70,7 @@ class GameBoard {
                 if(column == 1) 
                     newSpot.classList.add("active-red");
                 if(column == -1)
-                    newSpot.classList.add("active-black");
+                    newSpot.classList.add("active-blue");
                 newRow.appendChild(newSpot);
             }
             gameboard.appendChild(newRow);
@@ -81,6 +82,7 @@ class GameBoard {
 
     clearBoard() {
         this.board = [
+            [0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0],
