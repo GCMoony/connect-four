@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+#gameboard {
+    padding: 1em;
+    border: solid black 1px;
+    background-color: yellow;
+    min-width: 200px;
+    min-height: 200px;
+    display: grid;
+    gap: 1em;
+    rotate: -90deg;
+    margin-bottom: 2em;
+}
+
+
