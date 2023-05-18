@@ -9,14 +9,14 @@
     width: 2em;
     outline: black 1px solid;
     border-radius: 999px;
-    background-color: white;
+    background-color: var(--bg-color);
     cursor: pointer;
 }
 
 .active-red {
-    background-color: red;
+    background-color: rgb(255, 101, 101);
 }
 
-.active-black {
-    background-color: black;
+.active-blue {
+    background-color: rgb(136, 136, 253);
 }
